@@ -19,6 +19,7 @@
     "styled-components": "^6.1.19"
   },
   "devDependencies": {
+    "gatsby-cli": "^5.14.0",
     "prettier": "^2.8.8"
   },
   "keywords": [
