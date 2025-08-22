@@ -1,4 +1,4 @@
-import ScrollReveal from 'scrollreveal';
+// import ScrollReveal from 'scrollreveal';
 
 const srConfig = (delay = 200, viewFactor = 0.25) => {
   return {
