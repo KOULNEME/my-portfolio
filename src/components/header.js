@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import styled from 'styled-components';
+import { withPrefix } from 'gatsby';
 
 const Nav = styled.nav`
   display: flex;
@@ -40,7 +41,7 @@ const Header = () => {
   return (
     <Nav>
       <Link to="/">
-        <Logo src="/kossi-logo.png" alt="Logo" />
+        <Logo src={withPrefix("/kossi-logo.png")} alt="Logo" />
       </Link>
       <NavLinks>
         <StyledLink to="/about">About</StyledLink>
